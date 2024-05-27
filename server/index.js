@@ -8,6 +8,9 @@ const port = 3001;
 app.use(express.json());
 app.use(cors());
 
+
+
+
 const db = new pg.Client({
     user: "postgres",
     host: "localhost",
